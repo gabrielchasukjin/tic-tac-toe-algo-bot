@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tic-tac-toe-algo-bot/static/css/main.85be462e.css",
+    "main.js": "/tic-tac-toe-algo-bot/static/js/main.38228e33.js",
+    "index.html": "/tic-tac-toe-algo-bot/index.html",
+    "main.85be462e.css.map": "/tic-tac-toe-algo-bot/static/css/main.85be462e.css.map",
+    "main.38228e33.js.map": "/tic-tac-toe-algo-bot/static/js/main.38228e33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85be462e.css",
+    "static/js/main.38228e33.js"
+  ]
+}
