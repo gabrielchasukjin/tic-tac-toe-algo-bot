@@ -1,13 +1,73 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    background-color: whitesmoke;
+    
+    font: 40px "SF Pro", Futura, sans-serif;
+    /* 
+    Centers the body in the middle of screen  
+    */
+    max-width: max-content;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  ol, ul {
+    color: aliceblue;
+    padding-left: 30px;
+  }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table; 
+  } 
+
+  .status {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    text-align: center;
+    
+  }
+
+  .restart {
+    font:"SF Pro";
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 12px;
+    font-size: 24px;
+    padding: 8px 8px;
+    background-color: #e7e7e7; color: black;
+    border: none;
+  }
+  
+  .square {
+    background: whitesmoke;
+    border: 1px solid #999;
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: rgb(0, 0, 0);
+  }
+  
+  .game {
+    background-color:whitesmoke;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 40px;
+  }
